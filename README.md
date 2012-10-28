@@ -6,13 +6,13 @@ AppTemplate is a grails application template with user login based on spring sec
 
 Quick start
 -----------
-# Install postgres
-# Clone the repo
-# Change application.properties to give your application a name.
-# Create a set of postgres databases for your app <appName_dev>, <appName_test>, <appName_stage>
-# grails compile
-# grails dbm-update
-# grails run-app
+1. Install postgres
+2. Clone the repo
+3. Change application.properties to give your application a name.
+4. Create a set of postgres databases for your app <appName_dev>, <appName_test>, <appName_stage>
+5. grails compile
+6. grails dbm-update
+7. grails run-app
 
 The app comes with two users baked in by the database migration tool:
 * user@user.com
