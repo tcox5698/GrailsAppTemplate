@@ -9,7 +9,7 @@ Quick start
 1. Install postgres
 2. Clone the repo
 3. Change application.properties to give your application a name.
-4. Create a set of postgres databases for your app <appName_dev>, <appName_test>, <appName_stage>
+4. Create a set of postgres databases for your app \<appName_dev\>, \<appName_test\>, \<appName_stage\>
 5. grails compile
 6. grails dbm-update
 7. grails run-app
