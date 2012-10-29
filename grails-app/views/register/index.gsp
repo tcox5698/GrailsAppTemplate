@@ -23,8 +23,8 @@
 	<table>
 	<tbody>
 
-		<s2ui:textFieldRow name='username' labelCode='user.username.label' bean="${command}"
-                         size='40' labelCodeDefault='Username' value="${command.username}"/>
+                <s2ui:textFieldRow name='personName' labelCode='user.name.label' bean="${command}"
+                         size='40' labelCodeDefault='Name' value="${command.personName}"/>
 
 		<s2ui:textFieldRow name='email' bean="${command}" value="${command.email}"
 		                   size='40' labelCode='user.email.label' labelCodeDefault='E-mail'/>
